@@ -19,7 +19,7 @@ _start:
     mov     rsi,msg
     mov     rdx,16
     syscall
-    jmp     ,exit
+    jmp     .exit
 
 .exit:
     mov     rax,60
